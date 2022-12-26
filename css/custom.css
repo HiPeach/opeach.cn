@@ -40,6 +40,12 @@
   --btn-hover-color: rgb(0, 71, 212);
   --HiPeach-footerbg: transparent;
   --HiPeach-second-footerbg: transparent;
+  --HiPeach-footer-titlecolor: #6f71d3;
+  --HiPeach-footer-fontcolor: #af80e4de;
+  --HiPeach-footer-linkbg: #363636;
+  --HiPeach-footer-linkcolor: #af80e4;
+  --HiPeach-footer-hoverlinkbg: #6f71d3;
+  --HiPeach-footer-hoverlinkcolor: #fff;
 }
 
 [data-theme="light"] {
@@ -68,7 +74,6 @@
   --HiPeach-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
   --HiPeach-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
   --HiPeach-card-border: #c0c6d8;
-  --HiPeach-footer-fontcolor: 
 }
 
 [data-theme="dark"] {
@@ -379,19 +384,19 @@ div#footer_deal {
 a.deal_link {
   display: flex;
   margin: 1rem 27px;
-  color: var(--HiPeach-card-bg);
+  color: var(--HiPeach-footer-linkcolor);
   border-radius: 3rem;
   width: 32px;
   height: 32px;
-  background: var(--font-color);
+  background: var(--HiPeach-footer-linkbg);
   justify-content: center;
   align-items: center;
   transition: .3s
 }
 
 a.deal_link:hover {
-  color: var(--HiPeach-white);
-  background: var(--HiPeach-main)
+  color: var(--HiPeach-footer-hoverlinkcolor);
+  background: var(--HiPeach-footer-hoverlinkbg)
 }
 
 img.footer_mini_logo {
@@ -565,7 +570,7 @@ img.footer_mini_logo:hover {
   font-size: 1rem;
   line-height: .8rem;
   margin: .38rem 0;
-  color: var(--HiPeach-fontcolor);
+  color: var(--HiPeach-footer-fontcolor);
   /*margin-right: auto*/
 }
 
@@ -578,13 +583,13 @@ img.footer_mini_logo:hover {
 }
 
 #HiPeach-footer .footer-title {
-  color: var(--HiPeach-secondtext);
+  color: var(--HiPeach-footer-titlecolor);
   font-size: 1rem
 }
 
 #footer-banner {
   padding: 1rem;
-  color: var(--HiPeach-fontcolor);
+  color: var(--HiPeach-footer-titlecolor);
   margin-top: 1rem;
   background: var(--HiPeach-second-footerbg);
   display: flex;
@@ -616,7 +621,7 @@ img.footer_mini_logo:hover {
 
 #footer-banner .footer-banner-link {
   margin-right: 1rem;
-  color: var(--HiPeach-fontcolor);
+  color: var(--HiPeach-footer-titlecolor);
   font-size: 1rem;
   font-weight: 700;
   white-space: nowrap
