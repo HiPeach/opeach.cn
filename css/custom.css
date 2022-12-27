@@ -65,7 +65,7 @@
   --HiPeach-maskbgdeep: rgba(255, 255, 255, 0.85);
   --HiPeach-hovertext: var(--HiPeach-theme);
   --HiPeach-ahoverbg: #f7f7fa;
-  --HiPeach-lighttext: var(--HiPeach-main);
+  --HiPeach-lighttext: #6f42c1;
   --HiPeach-secondtext: rgba(60, 60, 67, 0.6);
   --HiPeach-scrollbar: rgba(60, 60, 67, 0.4);
   --HiPeach-card-btn-bg: #edf0f7;
@@ -105,12 +105,12 @@
   --HiPeach-post-tabs-bg: #121212;
   --HiPeach-secondbg: #30343f;
   --HiPeach-shadow-nav: 0 5px 20px 0px rgba(28, 28, 28, 0.4);
-  --HiPeach-card-bg: #1d1b26;
+  --HiPeach-card-bg: #1d1e22;
   --HiPeach-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
   --HiPeach-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
   --HiPeach-card-border: #42444a;
-  --HiPeach-code-bg: #363636;
-  --HiPeach-code-color: #f7f7fa;
+  --HiPeach-code-bg: #30343f;
+  --HiPeach-code-color: #f2b94b;
   --HiPeach-copyright-border: #212121;
 }
 
@@ -669,4 +669,46 @@ img.footer_mini_logo:hover {
   border-radius: 4px;
   background: var(--HiPeach-code-bg) !important;
   color: var(--HiPeach-code-color) !important;
+}
+
+/*目录*/
+#aside-content #card-toc .toc-content {
+  margin: 10px -18px;
+}
+ #aside-content #card-toc .toc-content .toc-link.active {
+  line-height: 1.2;
+  border-radius: 12px;
+  border-left-color: var(--HiPeach-hovertext);
+  background-color: var(--HiPeach-card-bg);
+  color: var(--HiPeach-lighttext);
+  font-weight: bold;
+  font-size: 20px;
+}
+[data-theme=dark].toc .toc-item.active .toc-link .toc-text {
+  color: var(--HiPeach-white);
+}
+#aside-content #card-toc .toc-content .toc-item.active .toc-link {
+  opacity: 1;
+  border-radius: 8px;
+}
+#aside-content #card-toc .toc-content .toc-link {
+  line-height: 1.2;
+  padding: 8px;
+  border-left: 0px solid transparent;
+  border-radius: 12px;
+  color: var(--HiPeach-secondtext);
+  cursor: default;
+}
+#aside-content #card-toc .toc-content .toc-link:not(.active) span {
+  opacity: 0.6;
+  cursor: pointer;
+  filter: blur(1px);
+  transition: 0.3s;
+}
+#aside-content #card-toc:hover .toc-content .toc-link:not(.active) span {
+  filter: blur(0px);
+  opacity: 1;
+}
+#aside-content #card-toc .toc-content .toc-link:not(.active) span:hover {
+  color: var(--HiPeach-lighttext);
 }
