@@ -2,14 +2,14 @@
 :root {
   --HiPeach-theme-op: #4259ef23;
   --HiPeach-gray-op: #9999992b;
-  --HiPeach-theme-top: var(--HiPeach-theme);/**/
-  --HiPeach-white: #fff;/**/
-  --HiPeach-white-op: rgba(255, 255, 255, 0.2);/**/
-  --HiPeach-black: #000;/**/
-  --HiPeach-black-op: rgba(0, 0, 0, 0.2);/**/
-  --HiPeach-none: rgba(0, 0, 0, 0);/**/
-  --HiPeach-gray: #999999;/**/
-  --HiPeach-yellow: #ffc93e;/**/
+  --HiPeach-theme-top: var(--HiPeach-theme);
+  --HiPeach-white: #fff;
+  --HiPeach-white-op: rgba(255, 255, 255, 0.2);
+  --HiPeach-black: #000;
+  --HiPeach-black-op: rgba(0, 0, 0, 0.2);
+  --HiPeach-none: rgba(0, 0, 0, 0);
+  --HiPeach-gray: #999999;
+  --HiPeach-yellow: #ffc93e;
   --HiPeach-border-radius: 8px;
   --HiPeach-main: var(--HiPeach-theme);
   --HiPeach-main-op: var(--HiPeach-theme-op);
@@ -38,14 +38,16 @@
   --HiPeach-transparent-border: transparent;
   --btn-bg: rgba(0,95,254);
   --btn-hover-color: rgb(0, 71, 212);
-  --HiPeach-footerbg: transparent;
-  --HiPeach-second-footerbg: transparent;
+  --HiPeach-footer-bg: transparent;
+  --HiPeach-footer-secondbg: transparent;
   --HiPeach-footer-titlecolor: #6f71d3;
   --HiPeach-footer-fontcolor: #af80e4de;
   --HiPeach-footer-linkbg: #363636;
   --HiPeach-footer-linkcolor: #af80e4;
   --HiPeach-footer-hoverlinkbg: #6f71d3;
   --HiPeach-footer-hoverlinkcolor: #fff;
+  --HiPeach-footer-hoverfontcolor: #5a87ff;
+  --HiPeach-footer-hovertitlecolor: #af80e4;
 }
 
 [data-theme="light"] {
@@ -440,7 +442,7 @@ img.footer_mini_logo:hover {
 }
 
 #footer {
-  background: var(--HiPeach-footerbg);
+  background: var(--HiPeach-footer-bg);
   margin-top: 1rem;
   display: flex;
   flex-direction: column;
@@ -449,7 +451,7 @@ img.footer_mini_logo:hover {
 
 @media screen and (max-width: 768px) {
   #footer {
-      background: linear-gradient(180deg, var(--HiPeach-background) 0, var(--HiPeach-card-bg) 25%);
+      background: var(--HiPeach-footer-bg);
       margin-top: 0;
       z-index: 999
   }
@@ -575,7 +577,7 @@ img.footer_mini_logo:hover {
 }
 
 #HiPeach-footer .footer-item:hover {
-  color: var(--HiPeach-theme)
+  color: var(--HiPeach-footer-hoverfontcolor)
 }
 
 #HiPeach-footer .footer-group {
@@ -591,7 +593,7 @@ img.footer_mini_logo:hover {
   padding: 1rem;
   color: var(--HiPeach-footer-titlecolor);
   margin-top: 1rem;
-  background: var(--HiPeach-second-footerbg);
+  background: var(--HiPeach-footer-secondbg);
   display: flex;
   overflow: hidden;
   z-index: 1002;
@@ -600,7 +602,7 @@ img.footer_mini_logo:hover {
 }
 
 [data-theme=dark] #footer-banner {
-  background: var(--HiPeach-second-footerbg)
+  background: var(--HiPeach-footer-secondbg)
 }
 
 #footer-banner .footer-banner-links {
@@ -611,6 +613,7 @@ img.footer_mini_logo:hover {
   margin: 0 auto;
   flex-wrap: wrap;
   align-items: center;
+  font-weight: bold
 }
 
 #footer-banner .footer-banner-left {
@@ -623,7 +626,6 @@ img.footer_mini_logo:hover {
   margin-right: 1rem;
   color: var(--HiPeach-footer-titlecolor);
   font-size: 1rem;
-  font-weight: 700;
   white-space: nowrap
 }
 
@@ -636,7 +638,7 @@ img.footer_mini_logo:hover {
 }
 
 #footer-banner .footer-banner-link:hover {
-  color: var(--HiPeach-theme)
+  color: var(--HiPeach-footer-hovertitlecolor)
 }
 
 #footer-banner > div > div.footer-banner-left > span {
@@ -644,7 +646,7 @@ img.footer_mini_logo:hover {
 }
 
 #footer-banner .footer-banner-right a:hover {
-  color: var(--HiPeach-lighttext)
+  color: var(--HiPeach-footer-hovertitlecolor)
 }
 
 #footer_deal i {
