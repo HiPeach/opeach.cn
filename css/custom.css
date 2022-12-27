@@ -36,8 +36,8 @@
   --HiPeach-black-acrylic1: #0b0b0e !important;
   --HiPeach-main-none: #b8b8b800 !important;
   --HiPeach-transparent-border: transparent;
-  --btn-bg: rgba(0,95,254);
-  --btn-hover-color: rgb(0, 71, 212);
+  --btn-bg: #005ffe;
+  --btn-hover-color: #0047d4;
   --HiPeach-footer-bg: transparent;
   --HiPeach-footer-secondbg: transparent;
   --HiPeach-footer-titlecolor: #6f71d3;
@@ -48,6 +48,7 @@
   --HiPeach-footer-hoverlinkcolor: #fff;
   --HiPeach-footer-hoverfontcolor: #5a87ff;
   --HiPeach-footer-hovertitlecolor: #af80e4;
+
 }
 
 [data-theme="light"] {
@@ -76,6 +77,9 @@
   --HiPeach-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
   --HiPeach-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
   --HiPeach-card-border: #c0c6d8;
+  --HiPeach-code-bg: #3b70fc;
+  --HiPeach-code-color: #f7f7fa;
+  --HiPeach-copyright-border: #f6f6f6;
 }
 
 [data-theme="dark"] {
@@ -105,6 +109,9 @@
   --HiPeach-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
   --HiPeach-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
   --HiPeach-card-border: #42444a;
+  --HiPeach-code-bg: #363636;
+  --HiPeach-code-color: #f7f7fa;
+  --HiPeach-copyright-border: #212121;
 }
 
 /* 文章页H1-H6图标样式效果 */
@@ -229,7 +236,7 @@ h6::before {
     position: relative;
     margin: 2rem 0 0.5rem;
     padding: 1.5rem 0.8rem;
-    border: 8px solid #f6f6f6; /*卡片边框*/
+    border: 8px solid var(--HiPeach-copyright-border); /*卡片边框*/
     border-radius: 20px; /*边框圆角*/
   }
     #post .post-copyright:before {
@@ -654,4 +661,12 @@ img.footer_mini_logo:hover {
   transition: .3s;
   line-height: 1.3rem;
   height: 1.3rem
+}
+
+/*行内代码框*/
+#article-container code {
+  padding: 2px 4px;
+  border-radius: 4px;
+  background: var(--HiPeach-code-bg) !important;
+  color: var(--HiPeach-code-color) !important;
 }
