@@ -6,7 +6,7 @@
   <link href="https://opeach.cn/atom.xml" rel="self"/>
   
   <link href="https://opeach.cn/"/>
-  <updated>2023-01-06T01:27:25.221Z</updated>
+  <updated>2023-01-23T11:40:15.723Z</updated>
   <id>https://opeach.cn/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>教程 | 使用Mirai搭建QQ机器人</title>
+    <link href="https://opeach.cn/posts/f0f9.html"/>
+    <id>https://opeach.cn/posts/f0f9.html</id>
+    <published>2023-01-22T10:57:05.000Z</published>
+    <updated>2023-01-23T11:40:15.723Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://opeach.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="教程" scheme="https://opeach.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>2022 | 年度总结</title>
