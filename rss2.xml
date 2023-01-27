@@ -15,11 +15,11 @@
     <atom:link href="https://opeach.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>巧不可语 妙不可言</description>
-    <pubDate>Thu, 26 Jan 2023 14:14:27 GMT</pubDate>
+    <pubDate>Fri, 27 Jan 2023 14:58:11 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>betterncm</title>
+      <title>教程 | 使用BestNCM美化网易云音乐</title>
       <link>https://opeach.cn/posts/7696.html</link>
       <guid>https://opeach.cn/posts/7696.html</guid>
       <pubDate>Wed, 25 Jan 2023 06:51:25 GMT</pubDate>
@@ -35,6 +35,10 @@
       
       
       
+      <category domain="https://opeach.cn/categories/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <category domain="https://opeach.cn/tags/%E6%95%99%E7%A8%8B/">教程</category>
       
       
       <comments>https://opeach.cn/posts/7696.html#disqus_thread</comments>
