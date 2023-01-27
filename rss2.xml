@@ -15,8 +15,31 @@
     <atom:link href="https://opeach.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>巧不可语 妙不可言</description>
-    <pubDate>Mon, 23 Jan 2023 11:40:15 GMT</pubDate>
+    <pubDate>Thu, 26 Jan 2023 14:14:27 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>betterncm</title>
+      <link>https://opeach.cn/posts/7696.html</link>
+      <guid>https://opeach.cn/posts/7696.html</guid>
+      <pubDate>Wed, 25 Jan 2023 06:51:25 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</description>
+          
+        
+      
+      
+      
+      
+      
+      
+      <comments>https://opeach.cn/posts/7696.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>教程 | 使用Mirai搭建QQ机器人</title>
