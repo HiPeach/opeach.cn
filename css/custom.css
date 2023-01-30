@@ -49,12 +49,12 @@
   --HiPeach-footer-hoverfontcolor: #5a87ff;
   --HiPeach-footer-hovertitlecolor: #af80e4;
   --HiPeach-white-top: rgb(238,238,238);
-  --km-float-win-bg: whitesmoke;
-  --km-globle-font: black;
-  --km-button-dark-hover: #0084ff;
-  --km-button-dark-bg: #66ccff;
-  --km-button-font: white;
-  --km-button-shadow: hsla(0, 0%, 22%, 0.2);
+  --HiPeach-float-win-bg: whitesmoke;
+  --HiPeach-globle-font: black;
+  --HiPeach-button-dark-hover: #0084ff;
+  --HiPeach-button-dark-bg: #66ccff;
+  --HiPeach-button-font: white;
+  --HiPeach-button-shadow: hsla(0, 0%, 22%, 0.2);
 }
 
 [data-theme="light"] {
@@ -118,12 +118,12 @@
   --HiPeach-code-bg: #30343f;
   --HiPeach-code-color: #f2b94b;
   --HiPeach-copyright-border: #212121;
-  --km-float-win-bg: #141414;
-  --km-globle-font: white;
-  --km-button-dark-hover: #49505d;
-  --km-button-dark-bg: #1f1f1f;
-  --km-button-font: #66ccff;
-  --km-button-shadow: #212121;
+  --HiPeach-float-win-bg: #141414;
+  --HiPeach-globle-font: white;
+  --HiPeach-button-dark-hover: #49505d;
+  --HiPeach-button-dark-bg: #1f1f1f;
+  --HiPeach-button-font: #66ccff;
+  --HiPeach-button-shadow: #212121;
 }
 
 /* 文章页H1-H6图标样式效果 */
@@ -797,10 +797,10 @@ img.footer_mini_logo:hover {
   top: 70px;
   width: 310px;
   z-index: 120;
-  background-color: var(--km-float-win-bg);
+  background-color: var(--HiPeach-float-win-bg);
   color: var(--font-color);
   border-radius: 15px;
-  box-shadow: 2px 2px 5px 3px var(--km-button-shadow);
+  box-shadow: 2px 2px 5px 3px var(--HiPeach-button-shadow);
   transition: all 1s;
   animation: win-entrance 1.3s forwards;
 }
@@ -883,9 +883,9 @@ img.footer_mini_logo:hover {
   z-index: 121;
   height: 30px;
   margin-right: 10px;
-  background-color: var(--km-button-dark-bg);
-  color: var(--km-button-font);
-  box-shadow: 1px 1px 2px var(--km-button-shadow);
+  background-color: var(--HiPeach-button-dark-bg);
+  color: var(--HiPeach-button-font);
+  box-shadow: 1px 1px 2px var(--HiPeach-button-shadow);
   padding: 10px;
   border-radius: 7px;
   transition: all 0.5s;
@@ -902,14 +902,14 @@ img.footer_mini_logo:hover {
   margin-right: 5px;
 }
 .float-win > .select > .action:hover {
-  background-color: var(--km-button-dark-hover);
+  background-color: var(--HiPeach-button-dark-hover);
 }
 .float-win > .select > .action:hover + .descr > p {
   left: 0;
   opacity: 1;
 }
 [data-theme='light'] .float-win {
-  box-shadow: 3px 4px 6px 5px var(--km-button-shadow);
+  box-shadow: 3px 4px 6px 5px var(--HiPeach-button-shadow);
 }
 @-moz-keyframes win-entrance {
   from {
