@@ -96,7 +96,7 @@
   --HiPeach-red: #ff3842;
   --HiPeach-pink: #ff7c7c;
   --HiPeach-green: #57bd6a;
-  --HiPeach-fontcolor: #f7f7fa;
+  --HiPeach-fontcolor: rgb(225, 225, 225);
   --HiPeach-background: #18171d;
   --HiPeach-reverse: #fff;
   --HiPeach-maskbg: rgba(0, 0, 0, 0.6);
@@ -988,3 +988,93 @@ img.footer_mini_logo:hover {
  }
 }
 
+/* 哔哔 */
+div#main_top {
+  z-index: 1;
+  max-width: 1200px;
+  margin: 20px auto -15px;
+  width: 100%;
+  padding: 0 15px;
+}
+
+@media screen and (min-width: 2000px) {
+  div#main_top {
+      max-width: 1500px;
+  }
+}
+
+#bber-talk {
+  border-radius: 12px;
+  box-shadow: none;
+  box-sizing: border-box;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+  width: 100%;
+  min-height: 50px;
+  background: var(--card-bg);
+  padding: .5rem 1rem;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  font-weight: 700;
+}
+
+#bber-talk:hover {
+  box-shadow: none;
+}
+
+#bber-talk,
+#bber-talk a {
+  color: var(--HiPeach-fontcolor);
+}
+
+#bber-talk svg.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -.15em;
+  fill: currentColor;
+  overflow: hidden;
+  font-size: 20px;
+}
+
+#bber-talk .item i {
+  margin-left: 5px;
+}
+
+#bber-talk>i {
+  font-size: 1.1rem;
+}
+
+#bber-talk .talk-list {
+  flex: 1;
+  max-height: 32px;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+#bber-talk .talk-list :hover {
+  color: #49b1f5 !important;
+  transition: all .2s ease-in-out;
+}
+
+#bber-talk .talk-list li {
+  list-style: none;
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  #bber-talk .talk-list {
+      text-align: center;
+      margin-right: 20px;
+  }
+}
+
+[data-theme=dark] #bber-talk svg {
+  filter: invert(100%);
+}
