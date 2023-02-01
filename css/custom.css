@@ -669,7 +669,7 @@ img.footer_mini_logo:hover {
 }
 
 #footer_deal i {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   transition: .3s;
   line-height: 1.3rem;
   height: 1.3rem
@@ -987,3 +987,4 @@ img.footer_mini_logo:hover {
     opacity: 0.3;
  }
 }
+
