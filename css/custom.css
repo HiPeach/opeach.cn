@@ -719,6 +719,7 @@ img.footer_mini_logo:hover {
 
 /*新年倒计时*/
 #newYear {
+  display: none; /*开关*/
   color: white;
   padding: 0 !important;
 }
@@ -1331,4 +1332,23 @@ div#author-info__sayhi {
 .card-widget.card-info .banner-button-group .banner-button:hover {
   background: #1856fb;
   color: #fff;
+}
+
+/*网站运行时间*/
+div#runtime {
+  width: fit-content;
+  color: #fff;
+  padding: 0 10px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+[data-theme="dark"] div#runtime {
+  color: #28b4c8;
+  box-shadow: 0 0 5px rgba(28, 69, 218, 0.71);
+}
+
+/*公告图标*/
+#aside-content .card-announcement .item-headline i {
+  color: var(--font-color)
 }
