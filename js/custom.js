@@ -330,3 +330,5 @@ function percent() {
 }
 
 document.getElementById("page-name").innerText = document.title.split(" | 安知鱼")[0];
+
+

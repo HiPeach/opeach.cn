@@ -546,3 +546,7 @@
   #search-button a.site-page.social-icon.search span {
     display: none;
   }
+
+  #page-header.nav-visible #nav {
+    background: #0000;
+  }
