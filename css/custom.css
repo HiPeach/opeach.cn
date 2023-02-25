@@ -301,20 +301,24 @@ h6::before {
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;
+  display: none
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: #6f42c1;
   background-image: -webkit-linear-gradient( 45deg, rgba(255, 255, 255, 0.4) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.4) 75%, transparent 75%, transparent);
   border-radius: 2em;
+  display: none
 }
 
 ::-webkit-scrollbar-corner {
   background-color: transparent;
+  display: none
 }
 
 ::-webkit-scrollbar-track {
   background-image: url(/media/scrollbar.webp);
+  display: none
 }
 
 /* 头像微调 */
