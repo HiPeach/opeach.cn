@@ -1356,3 +1356,8 @@ div#runtime {
 #aside-content .card-announcement .item-headline i {
   color: var(--font-color)
 }
+
+/*右下角隐藏*/
+#rightside{
+  display: none;
+}
