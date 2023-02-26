@@ -57,6 +57,7 @@
     --anzhiyu-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
     --anzhiyu-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
     --anzhiyu-card-border: #c0c6d8;
+    --HiPeach-font-color: #666;
   }
   
   [data-theme="dark"] {
@@ -265,7 +266,6 @@
   
   #nav a {
     border-radius: 8px;
-    color: var(--font-color);
   }
   .page #nav a:hover {
     color: var(--anzhiyu-white) !important;
@@ -544,4 +544,8 @@
   }
   #search-button a.site-page.social-icon.search span {
     display: none;
+  }
+
+  #nav {
+    padding: 0 calc((100% - 1420px) / 2);
   }
