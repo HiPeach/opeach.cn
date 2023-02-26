@@ -114,6 +114,12 @@
     color: var(--card-bg);
     font-size: 13px;
   }
+  #page-header #nav .back-home-button {
+    color: var(--light-grey);
+}
+#page-header.nav-fixed  #nav .back-home-button{
+  color: var(--font-color);
+}
   
   #nav-totop {
     width: 35px;
