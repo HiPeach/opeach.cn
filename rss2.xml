@@ -15,8 +15,35 @@
     <atom:link href="https://opeach.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>巧不可语 妙不可言</description>
-    <pubDate>Fri, 27 Jan 2023 14:58:11 GMT</pubDate>
+    <pubDate>Fri, 31 Mar 2023 14:07:09 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>博客 | Twikoo评论邮件回复模板</title>
+      <link>https://opeach.cn/posts/1b26.html</link>
+      <guid>https://opeach.cn/posts/1b26.html</guid>
+      <pubDate>Thu, 02 Mar 2023 03:42:14 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;关于博客的&lt;strong&gt;邮件回复&lt;/strong&gt;样式，我也尝试过 &lt;strong&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://opeach.cn/categories/%E5%8D%9A%E5%AE%A2/">博客</category>
+      
+      
+      <category domain="https://opeach.cn/tags/%E5%8D%9A%E5%AE%A2/">博客</category>
+      
+      
+      <comments>https://opeach.cn/posts/1b26.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>教程 | 使用BestNCM美化网易云音乐</title>
